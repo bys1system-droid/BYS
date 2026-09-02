@@ -87,9 +87,10 @@
     .link:focus-visible { outline: 2px solid var(--cyan); outline-offset: 3px; }
     .link-leading { min-width: 0; display: flex; align-items: center; gap: 14px; }
     .icon { width: 38px; height: 38px; flex: 0 0 38px; display: grid; place-items: center; border-radius: 11px; color: var(--cyan); background: rgba(23, 217, 245, .1); }
-    .link:nth-child(2) .icon { color: #c17aff; background: rgba(166, 77, 255, .12); }
-    .link:nth-child(3) .icon { color: #75ceff; background: rgba(32, 166, 245, .1); }
-    .link:nth-child(4) .icon { color: var(--mint); background: rgba(57, 230, 193, .1); }
+    .link:nth-child(1) .icon { color: var(--violet); background: rgba(166, 77, 255, .16); }
+    .link:nth-child(3) .icon { color: #c17aff; background: rgba(166, 77, 255, .12); }
+    .link:nth-child(4) .icon { color: #75ceff; background: rgba(32, 166, 245, .1); }
+    .link:nth-child(5) .icon { color: var(--mint); background: rgba(57, 230, 193, .1); }
     .copy { min-width: 0; display: flex; align-items: baseline; gap: 8px; overflow: hidden; }
     .name { flex: 0 0 auto; font-size: 14px; font-weight: 600; }
     .meta { min-width: 0; overflow: hidden; text-overflow: ellipsis; color: var(--muted); font-size: 10px; }
@@ -149,6 +150,12 @@
             <span class="card-index">SYS / 01</span>
           </div>
           <div class="links">
+            <a class="link" href="https://bys-platform.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Open the BYS platform website">
+              <span class="link-leading"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg></span><span class="copy"><span class="name">Platform</span><span class="meta">bys-platform.vercel.app</span></span></span><span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="link" href="https://drive.google.com/file/d/1YDrY39yXY2Gi-lL94erdiyMRx9d2FPcT/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Watch the BYS demo video">
+              <span class="link-leading"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8" fill="currentColor" stroke="none"/></svg></span><span class="copy"><span class="name">Demo Link</span><span class="meta">Watch BYS in action</span></span></span><span class="arrow" aria-hidden="true">↗</span>
+            </a>
             <a class="link" href="https://www.facebook.com/profile.php?id=61593466243113" target="_blank" rel="noopener noreferrer" aria-label="Visit BYS on Facebook">
               <span class="link-leading"><span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="17" height="17" fill="currentColor"><path d="M14 8h3V4h-3c-3.314 0-5 1.686-5 5v3H6v4h3v8h4v-8h3l1-4h-4V9c0-.607.393-1 1-1Z"/></svg></span><span class="copy"><span class="name">Facebook</span><span class="meta">BYS platform</span></span></span><span class="arrow" aria-hidden="true">↗</span>
             </a>
